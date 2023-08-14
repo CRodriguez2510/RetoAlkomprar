@@ -20,5 +20,7 @@ public class ValidacionPage extends PageObject {
     public By getLBLProducto() {
         return LBLProducto;
     }
+
+
 }
 

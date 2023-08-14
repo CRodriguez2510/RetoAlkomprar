@@ -13,7 +13,7 @@ public class ValidacionStep {
 
     @Step("Validacion de cuenta")
 
-    public void validacionCuenta(){
+    public void validacionCuenta() {
         Assert.assertTrue(
                 validacionPage.getDriver().findElement(
                         validacionPage.getLBLCuenta()).isDisplayed());
@@ -22,11 +22,10 @@ public class ValidacionStep {
     @Step("Validacion de producto")
 
     public void validacionProducto() {
-            Assert.assertTrue(
-                    validacionPage.getDriver().findElement(
-                            validacionPage.getLBLProducto()).isDisplayed());
-        }
-
+        Assert.assertTrue(
+                validacionPage.getDriver().findElement(
+                        validacionPage.getLBLProducto()).isDisplayed());
     }
+}
 
 

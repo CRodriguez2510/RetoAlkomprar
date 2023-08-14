@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = {"src/test/resources/features"},
         glue = "com.alkomprar.stepDefinitions",
-        tags = "@busquedaExitosa",
+        tags = "@registroExitoso",
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class Runner {

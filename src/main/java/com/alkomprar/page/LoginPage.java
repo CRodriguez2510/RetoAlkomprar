@@ -13,6 +13,7 @@ public class LoginPage extends PageObject {
     private final By continuarBtn = By.id("js-login-continue");
 
 
+
     public By getCorreoCampo() {
         return correoCampo;
     }
@@ -21,4 +22,6 @@ public class LoginPage extends PageObject {
         return continuarBtn;
 
     }
+
+
 }

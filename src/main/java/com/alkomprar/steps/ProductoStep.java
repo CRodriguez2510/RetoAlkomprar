@@ -22,10 +22,12 @@ public class ProductoStep extends PageObject {
     public void abrirNavegador(){
 
         productoPage.openUrl("https://www.alkomprar.com/");
+
     }
 
     @Step ("ingresar producto")
     public void ingresarProducto(){
+        metodos.metodoEspera();
         String producto = productos.data().get(0).get("Nombre");
         productoPage.getDriver().findElement(productoPage.getTxtBusqueda()).clear();
 

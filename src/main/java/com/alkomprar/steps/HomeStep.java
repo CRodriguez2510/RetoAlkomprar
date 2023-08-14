@@ -24,10 +24,7 @@ public class HomeStep {
     }
     @Step("mi cuenta")
     public void hoverMetodo() {
-        metodos.metodoEspera();
-        By locator = homePage.getMiCuenta();
-        Actions actions = new Actions(getDriver());
-        actions.moveToElement(getDriver().findElement(locator)).perform();
+        metodos.hoverMetodo();
     }
 
    @Step("mi perfil")

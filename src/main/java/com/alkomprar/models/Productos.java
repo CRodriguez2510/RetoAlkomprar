@@ -8,9 +8,6 @@ import java.util.ArrayList;
 import java.util.Map;
 
 public class Productos {
-
-    @Page
-    Excel excel;
     private static ArrayList<Map<String, String>> productos= new ArrayList<>();
 
     public static ArrayList<Map<String, String>> data(){
